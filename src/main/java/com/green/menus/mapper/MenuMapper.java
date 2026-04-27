@@ -10,6 +10,17 @@ import com.green.menus.dto.MenuDTO;
 public interface MenuMapper {
 
 	List<MenuDTO> getMenuList();
+
+	void insertMenu(MenuDTO menuDTO);
+
+	void deleteMenu(MenuDTO menuDTO);
+
+	void updateMenu(MenuDTO menuDTO);
+
+	MenuDTO getMenu(MenuDTO menuDTO);
+
+	void insertMenu2(MenuDTO menuDTO);
+
 	
 }
 
